@@ -9,7 +9,7 @@ pipeline {
     stages {
     	stage('Git checkout') {
     		steps {
-    			git 'https://github.com/VasanthaRaman/Jenkins_Spring.git'
+    			git 'https://github.com/VasanthaRaman/Jenkins_Simpler.git'
     		}
     	}
         stage('Build') {
