@@ -46,7 +46,8 @@ pipeline {
         
         stage('Copy deploy'){
         	steps{
-        	sh 'cp webapp/target/*.war /opt/tomcat/webapps/'
+        	sh 'ls'
+        	sh 'cp target/*.war /opt/tomcat/webapps/'
         	}
         }
         
