@@ -15,7 +15,11 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
+
+	    	echo "hi"                
+
                 echo "Hello from master"
+
                  echo "Running Job: ${env.JOB_NAME}\n build: ${env.BUILD_ID}"
 
                 // Run Maven on a Unix agent.
